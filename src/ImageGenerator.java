@@ -76,8 +76,6 @@ public class ImageGenerator {
         int max = Math.min(channelValue + halfRange, hi);
 
         int val = (min + mRand.nextInt(max - min));
-        int val2 = (min + mRand.nextInt(max - min));
-        int val3 = (min + mRand.nextInt(max - min));
 
 
         return val;
